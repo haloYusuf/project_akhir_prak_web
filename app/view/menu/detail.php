@@ -14,7 +14,7 @@
             <div class="row border-top border-bottom">
                 <form action="<?= BASE_URL; ?>/menu/order/" method="post">
                     <div class="row main align-items-center">
-                        <img class="menu-picc" src="<?= BASE_URL; ?>/img/rendang.jpg" />
+                        <img class="menu-picc" src="<?= $data['link_gambar']; ?>" />
                         <h3>
                             <?= $data['nama_menu']; ?>
                         </h3>
